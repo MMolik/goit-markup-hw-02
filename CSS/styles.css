@@ -1,6 +1,6 @@
 :root {
   --main-text-color: #434455;
-  --headers-color: #2e2f42;
+  --dark: #2e2f42;
   --footer-background-color: #2e2f42;
   --logo-color: #4d5ae5;
 }
@@ -12,11 +12,8 @@ body {
 }
 .list {
   list-style: none;
-}
-
-.link {
+  color: var(--dark);
   text-decoration: none;
-  color: #2e2f42;
 }
 button {
   cursor: pointer;
@@ -37,18 +34,10 @@ button {
   text-decoration: none;
 }
 .logo-studio {
-  color: #f4f4fd;
+  color: var(--dark);
 }
 .footer {
   background-color: var(--footer-background-color);
-}
-.list-first {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--headers-color);
-  text-decoration: none;
 }
 .list-first:hover {
   color: #404bbf;
