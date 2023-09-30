@@ -8,7 +8,7 @@
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color:var(--main-text-color);
   background-color: #ffffff;
 }
 .page-navigation {
@@ -22,7 +22,7 @@ body {
   cursor: pointer;
   background-color: #f4f4fd;
 }
-.header-navigation {
+.list-default {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -41,15 +41,16 @@ button {
   line-height: 1.5;
 }
 .logo {
-  font: 1em sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  text-transform: uppercase;
+    font-size: 18px;
+    font-family: Raleway sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
   color: var(--logo-color);
 }
 .logo-studio {
-  color: #2e2f42;
+  color:var(--headers-color)
   font-size: 18px;
   font-family: Raleway;
   font-weight: 800;
@@ -61,3 +62,14 @@ button {
 .footer {
   background-color: var(--footer-background-color);
 }
+.list-first {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--headers-color);
+    text-decoration: none;
+}
+.list-first:hover{color:#404bbf};
+.list-first:visited {color:#404bbf};
+.address {font-style: normal};
