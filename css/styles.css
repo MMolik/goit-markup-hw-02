@@ -58,11 +58,7 @@ body {
   font-style: normal;
 }
 .header {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
+ 
 }
 .logo-studio-footer {
   color: #f4f4fd;
@@ -84,6 +80,9 @@ body {
 .section1 {
   background-color: var(--dark);
   color: #ffffff;
+}
+.section {
+
 }
 .paragraph {
   line-height: 1.5;
@@ -113,7 +112,7 @@ body {
   border: none;
   cursor: pointer;
 }
-.button-order-service:hover {color: #404bbf;#404BBF}
+.button-order-service:hover {background-color: #404bbf;#404BBF}
 .h3-tag {
   color: var(--dark);
   font-size: 20px;
@@ -132,7 +131,4 @@ body {
   line-height: 40px;
   letter-spacing: 0.72px;
   word-wrap: break-word;
-}
-.headers {
-
 }
