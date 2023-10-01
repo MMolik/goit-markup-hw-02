@@ -69,3 +69,14 @@ body {
 .contact {
   color: var(--slate);
 }
+.list-second {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.002em;
+}
+.list-second:hover {
+  color: #404bbf;
+}
+.list-second:active {
+  color: #404bbf;
+}
