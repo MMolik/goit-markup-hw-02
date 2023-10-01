@@ -178,3 +178,13 @@ body {
   word-wrap: break-word;
   text-transform: capitalize;
 }
+.team-list {
+  background-color: #ffffff;
+}
+.header-positions {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+  color: var(--dark);
+}
