@@ -64,8 +64,6 @@ body {
   font-style: normal;
 }
 
-.header {
-}
 .logo-studio-footer {
   color: #f4f4fd;
 }
@@ -170,8 +168,8 @@ body {
 .section4 {
   background-color: #f4f4fd;
 }
-.what-are-we-doing {
-  color:var(--dark)
+.header {
+  color: var(--dark);
   font-size: 36px;
   line-height: 1.11;
   font-weight: 700;
