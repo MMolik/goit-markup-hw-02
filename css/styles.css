@@ -103,7 +103,7 @@ body {
 .list-second:focus {
   background-color: #404bbf;
 }
-.section1 {
+.section-1 {
   background-color: var(--dark);
   color: #ffffff;
 }
@@ -139,7 +139,7 @@ body {
   background-color: #404bbf;
 }
 .button-order-service:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .h3-tag {
   color: var(--dark);
