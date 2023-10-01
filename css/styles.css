@@ -61,11 +61,10 @@ body {
   color: #40;
 }
 .address {
-  font-style: normal;}
-
+  font-style: normal;
+}
 
 .header {
- 
 }
 .logo-studio-footer {
   color: #f4f4fd;
@@ -75,33 +74,38 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contact:hover {color: #404bbf;}
-.contact:focus {color: #404bbf;}
+.contact:hover {
+  color: #404bbf;
+}
+.contact:focus {
+  color: #404bbf;
+}
 .list-second {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color:var(--iris);
+  color: var(--iris);
   background-color: var(--cloud);
   border: none;
   cursor: pointer;
 }
 .list-second:hover {
-  color:#ffffff;
+  color: #ffffff;
 }
 .list-second:focus {
   color: #ffffff;
 }
-.list-second:hover {background-color: #404BBF;}
-.list-second:focus {background-color: #404BBF;}
+.list-second:hover {
+  background-color: #404bbf;
+}
+.list-second:focus {
+  background-color: #404bbf;
+}
 .section1 {
   background-color: var(--dark);
   color: #ffffff;
-}
-.section {
-
 }
 .paragraph {
   line-height: 1.5;
@@ -131,7 +135,12 @@ body {
   border: none;
   cursor: pointer;
 }
-.button-order-service:hover {background-color: #404bbf;#404BBF}
+.button-order-service:hover {
+  background-color: #404bbf;
+}
+.button-order-service:focus {
+  color: #404bbf;
+}
 .h3-tag {
   color: var(--dark);
   font-size: 20px;
@@ -152,12 +161,12 @@ body {
   word-wrap: break-word;
 }
 .h2-tag-portfolio {
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
 .section4 {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
