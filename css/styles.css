@@ -2,6 +2,7 @@
   --main-text-color: #434455;
   --dark: #2e2f42;
   --logo-color: #4d5ae5;
+  --slate: #434455;
 }
 
 body {
@@ -9,10 +10,11 @@ body {
   color: var(--main-text-color);
   background-color: #ffffff;
 }
+.link {
+  text-decoration: none;
+}
 .list {
   list-style: none;
-  color: var(--dark);
-  text-decoration: none;
 }
 button {
   cursor: pointer;
@@ -38,11 +40,14 @@ button {
 .footer {
   background-color: var(--footer-background-color);
 }
+.list-first {
+  color: var(--dark);
+}
 .list-first:hover {
   color: #404bbf;
 }
 .list-first:visited {
-  color: #404bbf;
+  color: #40;
 }
 .address {
   font-style: normal;
@@ -56,4 +61,7 @@ button {
 }
 .logo-studio-footer {
   color: #f4f4fd;
+}
+.contact {
+  color: var(--slate);
 }
