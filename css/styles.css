@@ -71,9 +71,10 @@ body {
 }
 .contact {
   color: var(--slate);
-
-
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+.contact:focus {color: #404bbf;}
 .list-second {
   font-weight: 500;
   line-height: 1.5;
