@@ -47,8 +47,14 @@ body {
 }
 .list-first {
   color: var(--dark);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.list-first:hover {
+.list-first:focus {
+  color: #404bbf;
+}
+.list-first:focus {
   color: #404bbf;
 }
 .list-first:visited {
