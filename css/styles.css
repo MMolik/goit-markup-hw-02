@@ -170,3 +170,13 @@ body {
 .section4 {
   background-color: #f4f4fd;
 }
+.what-are-we-doing {
+  color:var(--dark)
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+  text-transform: capitalize;
+}
